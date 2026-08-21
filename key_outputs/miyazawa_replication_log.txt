@@ -1,0 +1,15 @@
+outcome rows found: 32 of 41
+missing: ['rs117810762', 'rs117968677', 'rs17842490', 'rs2107308', 'rs2472297', 'rs56113850', 'rs630194', 'rs780093', 'rs78267637']
+
+Coffee intake cups/day -> AF (Miyazawa meta, n=31 SNPs):
+  IVW(re) beta=0.2985 OR=1.348 (1.041-1.745) P=2.34e-02  Q=75.8
+  skipped: ['rs2472297', 'rs780093', 'rs56113850', 'rs630194', 'rs17842490', 'rs78267637', 'rs117810762', 'rs117968677', 'rs2107308']
+  Weighted median OR=1.224
+  Weighted median (bootstrap) OR=1.224 (0.922-1.474)
+  MR-Egger slope OR=1.251 (0.959-1.630) P=0.098; intercept=0.0033 (P=0.090)
+
+  rs2472297 missing in outcome
+Plasma caffeine per SD -> AF (Miyazawa meta, n=1 SNPs): OR=0.922 (0.831-1.022) P=0.121
+  rs2472297 missing in outcome
+  rs56113850 missing in outcome
+Paraxanthine/caffeine ratio per SD -> AF (Miyazawa meta, n=1 SNPs): OR=0.928 (0.855-1.006) P=0.069

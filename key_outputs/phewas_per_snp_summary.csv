@@ -1,0 +1,42 @@
+SNP,chr,pos,n_traits,top_traits,top_p,locus
+rs780093,2,27742603,1290,Triglycerides; Triglyceride levels; Sex hormone-binding globulin levels,0.0e+00,GCKR
+rs34060476,7,73037956,720,Triglycerides; Triglycerides to total lipids ratio in very smal; Free cholesterol to total lipids ratio in large ,0.0e+00,BDNF region
+rs1421085,16,53800954,598,body mass index; Weight; Basal metabolic rate,0.0e+00,FTO
+rs476828,18,57852587,384,Basal metabolic rate; Whole body fat-free mass; Whole body water mass,7.1e-212,
+rs9398171,6,108983527,298,IGF 1 (UKB data field 30770); IGF-1; Basal metabolic rate,4.1e-98,
+rs56113850,19,41353107,239,Nicotine metabolite ratio in current smokers; Alkaline phosphatase levels (UKB data field 3061; ENSG00000233622,5.5e-261,CYP2A6 region
+rs13163336,5,87943710,226,a2009s lh G precuneus thickness; Body mass index; Arm fat mass (left),0.0e+00,
+rs1057868,7,75615006,225,ENSG00000127952; ENSG00000230882; ENSG00000127948,3.3e-310,
+rs13387939,2,637498,219,a2009s lh G precuneus thickness; Comparative body size at age 10; Basal metabolic rate,0.0e+00,TMEM18
+rs2472297,15,75027880,194,Coffee intake; Tea intake; Instant coffee consumption,1.1e-142,CYP1A1/CYP1A2
+rs1338549,6,98312143,190,Qualifications: College or University degree; Years of schooling; Educational attainment (college completion),1.5e-38,
+rs2189234,4,106075498,179,Height; Lymphocyte percentage of white cells; Neutrophil percentage of white cells,1.0e-63,
+rs516636,1,177855517,163,"Comparative body size at age 10, Males and Femal; body mass index; Weight",1.7e-157,
+rs4410790,7,17284577,154,Coffee intake; Tea intake; Water consumption,1.2e-120,AHR
+rs2107308,17,46164947,129,ENSG00000173917; ENSG00000141293; ENSG00000141295,3.3e-310,
+rs7224815,17,17845800,120,ENSG00000072310; Sex hormone-binding globulin levels adjusted for; ENSG00000141034,3.3e-310,
+rs13054099,22,41215672,98,ENSG00000167074; ENSG00000167077; ENSG00000100393,6.0e-117,
+rs7811609,7,32930597,85,ENSG00000170852; Red cell distribution width; Red blood cell (erythrocyte) distribution width,3.3e-310,
+rs2465037,6,51179260,66,"Comparative body size at age 10, Males and Femal; body mass index; Cereal intake",7.5e-16,
+rs4615895,1,96274668,57,body mass index; Coffee intake; Impedance of leg (left),3.7e-18,
+rs75347775,19,18495908,50,Growth/differentiation factor 15 measurement; ENSG00000175489; ENSG00000130513,3.2e-175,
+rs6063085,20,45840459,49,ENSG00000101040; Ankle spacing width; Coffee intake,1.1e-27,
+rs6062682,20,62891820,47,ENSG00000203880; Estimated glomerular filtration rate (creatinine; Coffee intake,5.5e-122,PCMTD2
+rs442355,8,109128653,39,Hair color; Retinal nerve fibre layer (RNFL) thickness; 6mm weak meridian (right),1.6e-26,
+rs57918684,17,60150383,29,Standing height; Mean corpuscular volume (UKB data field 30040); Height,5.8e-10,
+rs12989746,2,49368391,22,aparc-a2009s_lh_volume_G-oc-temp-med-Lingual; aparc-DKTatlas_lh_volume_lingual; aparc-Desikan_lh_volume_lingual,1.7e-10,
+rs17842490,22,24870527,18,ENSG00000100024; ENSG00000099994; Coffee consumption (cups per day),2.4e-20,
+rs117810762,10,135315795,14,ENSG00000130649; Acetone; ENSG00000214279,2.8e-26,
+rs61928609,12,11316437,12,ENSG00000111215; ENSG00000247157; ENSG00000212127,5.8e-195,
+rs1527961,2,62780440,11,ENSG00000115507; Low density lipoprotein cholesterol levels; ENSG00000170340,1.1e-16,
+rs1942965,18,55032486,11,C-reactive protein levels; Sex hormone-binding globulin levels; Coffee intake,1.2e-08,
+rs78267637,8,33790200,10,Coffee intake; Schizophrenia; Common schizophrenia alleles are enriched in mut,3.9e-09,
+rs8056750,16,70927078,9,ENSG00000180917; ENSG00000223496; Coffee intake,6.3e-74,HYDIN
+rs117968677,15,75174251,8,ENSG00000140497; ENSG00000140474; ENSG00000140400,2.3e-12,
+rs73075167,7,17570479,7,Coffee intake; Total bilirubin levels (UKB data field 30840); Tea intake,5.0e-11,
+rs12514566,5,7391462,7,Number of days/week walked 10+ minutes; Coffee intake; Time spent using computer,4.3e-12,
+rs6469262,8,110443480,5,ENSG00000147654; ENSG00000120533; ENSG00000205038,3.4e-34,
+rs630194,18,40950954,5,Coffee intake; Lamb/mutton intake; Lamb consumption,2.3e-11,
+rs10119174,9,27953724,4,Coffee intake; Impedance of whole body; Plays computer games,1.0e-08,
+rs2597805,4,17424930,2,ENSG00000151552; Coffee intake,1.9e-53,
+rs1157821370,,,1,Age at menarche,2.2e-08,

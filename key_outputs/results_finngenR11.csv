@@ -1,0 +1,6 @@
+"id.exposure","id.outcome","outcome","exposure","method","nsnp","b","se","pval"
+"kmVfRg","2nkA7u","AF & flutter (FinnGen R11)","Coffee intake (cups/day, UKB)","Inverse variance weighted",38,0.491320864941877,0.187292681888146,0.00870880528713991
+"kmVfRg","2nkA7u","AF & flutter (FinnGen R11)","Coffee intake (cups/day, UKB)","MR Egger",38,0.505189990348065,0.381772171823088,0.194086832526519
+"kmVfRg","2nkA7u","AF & flutter (FinnGen R11)","Coffee intake (cups/day, UKB)","Weighted median",38,0.610024678548509,0.179771194211562,0.00069046028868324
+"kmVfRg","2nkA7u","AF & flutter (FinnGen R11)","Coffee intake (cups/day, UKB)","Simple mode",38,0.917279359576598,0.406609306536216,0.0300750437513789
+"kmVfRg","2nkA7u","AF & flutter (FinnGen R11)","Coffee intake (cups/day, UKB)","Weighted mode",38,0.322274898628658,0.173287184731995,0.070882356113991

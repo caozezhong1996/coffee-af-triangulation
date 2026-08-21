@@ -1,0 +1,51 @@
+{
+ "pooled_IVW": {
+  "beta": 0.2802,
+  "se": 0.0996,
+  "TOST_P": 0.7166,
+  "equivalent": false,
+  "MDE_OR_80pct": 1.32
+ },
+ "pooled_PRESSO": {
+  "beta": 0.1746,
+  "se": 0.0817,
+  "TOST_P": 0.2762,
+  "equivalent": false,
+  "MDE_OR_80pct": 1.26
+ },
+ "pooled_MVMR": {
+  "beta": 0.0579,
+  "se": 0.0924,
+  "TOST_P": 0.0369,
+  "equivalent": true,
+  "MDE_OR_80pct": 1.3
+ },
+ "R11_IVW": {
+  "beta": 0.4913,
+  "se": 0.1873,
+  "TOST_P": 0.9239,
+  "equivalent": false,
+  "MDE_OR_80pct": 1.69
+ },
+ "Nielsen_IVW": {
+  "beta": 0.197,
+  "se": 0.1176,
+  "TOST_P": 0.412,
+  "equivalent": false,
+  "MDE_OR_80pct": 1.39
+ },
+ "Wojcik_Nielsen": {
+  "beta": -0.0308,
+  "se": 0.1424,
+  "TOST_P": 0.0884,
+  "equivalent": false,
+  "MDE_OR_80pct": 1.49
+ },
+ "Wojcik_R11": {
+  "beta": 0.2327,
+  "se": 0.2014,
+  "TOST_P": 0.5189,
+  "equivalent": false,
+  "MDE_OR_80pct": 1.76
+ }
+}

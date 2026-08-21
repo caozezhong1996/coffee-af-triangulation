@@ -1,0 +1,56 @@
+{
+ "dataset": "Miyazawa 2023 Nat Genet cross-ancestry AF meta-GWAS (GCST90204201)",
+ "n_cases": 77690,
+ "n_controls": 1167040,
+ "n_variants": 5000630,
+ "overlap_note": "Pools BBJ Japan + Nielsen 2018 + FinnGen; not independent of primary outcome datasets.",
+ "coffee_intake": {
+  "n_snp_available": 31,
+  "n_snp_total": 40,
+  "IVW_RE": {
+   "OR": 1.348,
+   "lo": 1.041,
+   "hi": 1.745,
+   "P": 0.023,
+   "Q": 75.8,
+   "Q_df": 30
+  },
+  "weighted_median": {
+   "OR": 1.224,
+   "lo": 0.922,
+   "hi": 1.474
+  },
+  "MR_Egger": {
+   "OR": 1.251,
+   "lo": 0.959,
+   "hi": 1.63,
+   "P": 0.098,
+   "intercept": 0.0033,
+   "intercept_P": 0.09
+  }
+ },
+ "plasma_caffeine_rs4410790_wald": {
+  "OR": 0.922,
+  "lo": 0.831,
+  "hi": 1.022,
+  "P": 0.121
+ },
+ "ratio_rs6968554_wald": {
+  "OR": 0.928,
+  "lo": 0.855,
+  "hi": 1.006,
+  "P": 0.069
+ },
+ "missing_snps": [
+  "rs2472297",
+  "rs780093",
+  "rs56113850",
+  "rs630194",
+  "rs17842490",
+  "rs78267637",
+  "rs117810762",
+  "rs117968677",
+  "rs2107308"
+ ],
+ "missing_note": "rs117810762/rs117968677 below MAF 1% filter; remaining 7 present in Nielsen 2018 but filtered from the meta file (cohort-level QC)."
+}
