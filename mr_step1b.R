@@ -1,0 +1,7 @@
+Sys.setenv(OPENGWAS_JWT = "YOUR_OPENGWAS_TOKEN")
+suppressMessages(library(ieugwasr))
+g <- gwasinfo()
+co <- as.data.frame(g[grepl("coffee", g$trait, ignore.case=TRUE), c("id","trait","year","sample_size","author")])
+af <- as.data.frame(g[grepl("atrial fibrillation", g$trait, ignore.case=TRUE), c("id","trait","year","sample_size","ncase","author")])
+write.csv(co, ".//mr_data/coffee_datasets.csv", row.names=FALSE)
+write.csv(af, ".//mr_data/af_datasets.csv", row.names=FALSE)
