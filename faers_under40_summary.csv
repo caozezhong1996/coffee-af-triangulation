@@ -1,0 +1,8 @@
+stratum,caffeine_AF,caffeine_total,background_AF,background_total,ROR,CI_lo,CI_hi,P
+lt40,11,3693,1742,1493260,2.57,1.42,4.65,0.0019
+m40,28,7028,17063,2938327,0.68,0.47,0.99,0.0453
+g65,63,3086,43744,2867996,1.35,1.05,1.73,0.0197
+
+energy-drink overlap in <40 caffeine+AF,0
+energy-drink AF reports <40 (any),0
+<40 caffeine+AF surviving masking correction,11
