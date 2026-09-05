@@ -1,0 +1,202 @@
+[
+ {
+  "id": "10993838",
+  "date": "20150407",
+  "death": null,
+  "age": "35",
+  "sex": "1",
+  "n_drugs": 3,
+  "caf_products": [
+   "CAFFEINE."
+  ],
+  "caf_roles": [
+   "1"
+  ],
+  "caf_indications": [
+   "PRODUCT USED FOR UNKNOWN INDICATION"
+  ],
+  "all_products": [
+   "TRIIODOTHYRONINE",
+   "CAFFEINE.",
+   "OROS METHYLPHENIDATE HYDROCHLORIDE"
+  ]
+ },
+ {
+  "id": "11441037",
+  "date": "20150821",
+  "death": null,
+  "age": "36",
+  "sex": "1",
+  "n_drugs": 3,
+  "caf_products": [
+   "CAFFEINE."
+  ],
+  "caf_roles": [
+   "2"
+  ],
+  "caf_indications": [
+   null
+  ],
+  "all_products": [
+   "CAFFEINE.",
+   "ETHANOL",
+   "CYMBALTA"
+  ]
+ },
+ {
+  "id": "12228600",
+  "date": "20160401",
+  "death": null,
+  "age": "28",
+  "sex": "1",
+  "n_drugs": 10,
+  "caf_products": [
+   "CAFFEINE (UNKNOWN)"
+  ],
+  "caf_roles": [
+   "1"
+  ],
+  "caf_indications": [
+   "PRODUCT USED FOR UNKNOWN INDICATION"
+  ],
+  "all_products": [
+   "CLOZARIL",
+   "QUETIAPINE (UNKNOWN)",
+   "CAFFEINE (UNKNOWN)",
+   "DIAZEPAM.",
+   "OLANZAPINE.",
+   "QUETIAPINE (UNKNOWN)",
+   "ATOMOXETINE",
+   "CLOZAPINE.",
+   "LERCADIP                           /01366401/",
+   "SODIUM VALPROATE"
+  ]
+ },
+ {
+  "id": "12241308",
+  "date": "20160406",
+  "death": null,
+  "age": "28",
+  "sex": "1",
+  "n_drugs": 10,
+  "caf_products": [
+   "CAFFEINE."
+  ],
+  "caf_roles": [
+   "1"
+  ],
+  "caf_indications": [
+   "PRODUCT USED FOR UNKNOWN INDICATION"
+  ],
+  "all_products": [
+   "CAFFEINE.",
+   "CLOZARIL",
+   "QUETIAPINE 100MG",
+   "ATOMOXETINE",
+   "DIAZEPAM.",
+   "OLANZAPINE.",
+   "SODIUM VALPROATE",
+   "QUETIAPINE 100MG",
+   "CLOZAPINE.",
+   "LERCADIP                           /01366401/"
+  ]
+ },
+ {
+  "id": "12325670",
+  "date": "20160503",
+  "death": null,
+  "age": "28",
+  "sex": "1",
+  "n_drugs": 11,
+  "caf_products": [
+   "CAFFEINE."
+  ],
+  "caf_roles": [
+   "1"
+  ],
+  "caf_indications": [
+   "PRODUCT USED FOR UNKNOWN INDICATION"
+  ],
+  "all_products": [
+   "LERCADIP",
+   "CLOZARIL",
+   "QUETIAPINE.",
+   "CLOZAPINE.",
+   "QUETIAPINE.",
+   "QUETIAPINE.",
+   "ATOMOXETINE",
+   "CAFFEINE.",
+   "DIAZEPAM.",
+   "OLANZAPINE.",
+   "SODIUM VALPROATE"
+  ]
+ },
+ {
+  "id": "13915357",
+  "date": "20170829",
+  "death": "1",
+  "age": "18",
+  "sex": "2",
+  "n_drugs": 16,
+  "caf_products": [
+   "ACETAMINOPHEN\\CAFFEINE"
+  ],
+  "caf_roles": [
+   "1"
+  ],
+  "caf_indications": [
+   "Product used for unknown indication"
+  ],
+  "all_products": [
+   "CITALOPRAM",
+   "CITALOPRAM",
+   "QUETIAPINE FUMARATE",
+   "QUETIAPINE FUMARATE",
+   "QUETIAPINE FUMARATE",
+   "ACETAMINOPHEN",
+   "ACETAMINOPHEN\\CAFFEINE",
+   "ASPIRIN",
+   "ASPIRIN",
+   "ASPIRIN",
+   "DIPHENHYDRAMINE",
+   "ALCOHOL",
+   "ISONIAZID",
+   "PROPOFOL",
+   "ATOMOXETINE",
+   "ATOMOXETINE"
+  ]
+ },
+ {
+  "id": "16080919",
+  "date": "20190316",
+  "death": "1",
+  "age": "18",
+  "sex": "2",
+  "n_drugs": 14,
+  "caf_products": [
+   "ACETAMINOPHEN\\CAFFEINE"
+  ],
+  "caf_roles": [
+   "1"
+  ],
+  "caf_indications": [
+   "Product used for unknown indication"
+  ],
+  "all_products": [
+   "QUETIAPINE",
+   "QUETIAPINE",
+   "QUETIAPINE",
+   "QUETIAPINE",
+   "ACETAMINOPHEN\\CAFFEINE",
+   "ASPIRIN",
+   "ALCOHOL",
+   "ACETAMINOPHEN",
+   "ATOMOXETINE",
+   "CITALOPRAM",
+   "ISONIAZID",
+   "ASPIRIN",
+   "DIPHENHYDRAMINE",
+   "PROPOFOL"
+  ]
+ }
+]
