@@ -8,6 +8,16 @@ M (caffeine metabolism),3,237.9,0.346,0.5234,-0.6799,1.3719,5.09e-01,0.5,AF (BBJ
 Other,31,43.4,0.4195,0.4364,-0.4359,1.2748,3.36e-01,26.3,AF (BBJ),metabolism_vs_rest,0.01,1,0.914
 M (caffeine metabolism),3,237.9,0.346,0.5234,-0.6799,1.3719,5.09e-01,0.5,AF (BBJ),three_cluster,0.78,2,0.676
 A (adiposity/intake propensity),7,65.9,0.9203,0.7607,-0.5706,2.4112,2.26e-01,6.7,AF (BBJ),three_cluster,0.78,2,0.676
-Other,24,36.8,0.1263,0.5495,-0.9507,1.2033,8.18e-01,24,36.8,0.1263,0.5495,-0.9507,1.2033,8.18e-01,18.8,AF (BBJ),three_cluster,0.78,2,0.676
+Other,24,36.8,0.1263,0.5495,-0.9507,1.2033,8.18e-01,18.8,AF (BBJ),three_cluster,0.78,2,0.676
 M (caffeine metabolism),4,344.3,2.1458,1.9867,-1.7481,6.0397,2.80e-01,9.8,PR interval,metabolism_vs_rest,5.82,1,0.016
 Other,31,43.7,5.8485,1.4614,2.9842,8.7129,6.28e-05,55.7,PR interval,metabolism_vs_rest,5.82,1,0.016
+M (caffeine metabolism),4,344.3,2.1458,1.9867,-1.7481,6.0397,2.80e-01,9.8,PR interval,three_cluster,5.93,2,0.052
+A (adiposity/intake propensity),7,65.9,5.3627,2.176,1.0978,9.6277,1.37e-02,8.2,PR interval,three_cluster,5.93,2,0.052
+Other,24,37.2,6.0897,1.8835,2.3979,9.7814,1.22e-03,47.4,PR interval,three_cluster,5.93,2,0.052
+M (caffeine metabolism),4,344.3,1.8996,1.8395,-1.7059,5.505,3.02e-01,1.4,QT interval,metabolism_vs_rest,4.25,1,0.039
+Other,31,43.7,-3.305,2.0945,-7.4101,0.8002,1.15e-01,44.1,QT interval,metabolism_vs_rest,4.25,1,0.039
+M (caffeine metabolism),4,344.3,1.8996,1.8395,-1.7059,5.505,3.02e-01,1.4,QT interval,three_cluster,4.29,2,0.117
+A (adiposity/intake propensity),7,65.9,-3.7623,3.8653,-11.3384,3.8137,3.30e-01,9.8,QT interval,three_cluster,4.29,2,0.117
+Other,24,37.2,-3.0833,2.5689,-8.1185,1.9518,2.30e-01,34.3,QT interval,three_cluster,4.29,2,0.117
+Other,21,69.1,0.3598,0.8,-1.2083,1.9278,6.53e-01,95.7,Resting heart rate,metabolism_vs_rest,0.0,1,1.000
+Other,21,69.1,0.3598,0.8,-1.2083,1.9278,6.53e-01,95.7,Resting heart rate,three_cluster,0.0,2,1.000
