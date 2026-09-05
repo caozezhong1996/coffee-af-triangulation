@@ -1,0 +1,13 @@
+cluster,nsnp,F,b,se,lo,hi,p,Q,trait,scheme,Q_between,df_between,p_between
+M (caffeine metabolism),5,284.1,0.3475,0.2226,-0.0888,0.7838,1.18e-01,9.6,AF (FinnGen R12),metabolism_vs_rest,0.75,1,0.387
+Other,35,42.5,0.5216,0.2516,0.0285,1.0147,3.81e-02,108.3,AF (FinnGen R12),metabolism_vs_rest,0.75,1,0.387
+M (caffeine metabolism),5,284.1,0.3475,0.2226,-0.0888,0.7838,1.18e-01,9.6,AF (FinnGen R12),three_cluster,30.6,2,0.000
+A (adiposity/intake propensity),7,65.9,1.6742,0.555,0.5863,2.7621,2.56e-03,28.7,AF (FinnGen R12),three_cluster,30.6,2,0.000
+Other,28,36.7,0.0071,0.2301,-0.4439,0.4581,9.76e-01,49.7,AF (FinnGen R12),three_cluster,30.6,2,0.000
+M (caffeine metabolism),3,237.9,0.346,0.5234,-0.6799,1.3719,5.09e-01,0.5,AF (BBJ),metabolism_vs_rest,0.01,1,0.914
+Other,31,43.4,0.4195,0.4364,-0.4359,1.2748,3.36e-01,26.3,AF (BBJ),metabolism_vs_rest,0.01,1,0.914
+M (caffeine metabolism),3,237.9,0.346,0.5234,-0.6799,1.3719,5.09e-01,0.5,AF (BBJ),three_cluster,0.78,2,0.676
+A (adiposity/intake propensity),7,65.9,0.9203,0.7607,-0.5706,2.4112,2.26e-01,6.7,AF (BBJ),three_cluster,0.78,2,0.676
+Other,24,36.8,0.1263,0.5495,-0.9507,1.2033,8.18e-01,24,36.8,0.1263,0.5495,-0.9507,1.2033,8.18e-01,18.8,AF (BBJ),three_cluster,0.78,2,0.676
+M (caffeine metabolism),4,344.3,2.1458,1.9867,-1.7481,6.0397,2.80e-01,9.8,PR interval,metabolism_vs_rest,5.82,1,0.016
+Other,31,43.7,5.8485,1.4614,2.9842,8.7129,6.28e-05,55.7,PR interval,metabolism_vs_rest,5.82,1,0.016
