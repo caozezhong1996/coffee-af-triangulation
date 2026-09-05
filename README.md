@@ -67,6 +67,14 @@ Place the FinnGen file as `finngen_R11_I9_AF.gz` in the working directory
     reports; PRR / ROR / IC computation.
 13. `faers_sens_a.py` — FAERS sensitivity analyses (brand-name phrasing,
     seriousness restriction).
+14. `faers_under40_characterization.py` (+ `faers_under40_facets.py`,
+    `faers_under40_salvage.py`, `faers_under40_assemble.py`) — case-level
+    characterization of the serious caffeine + AF reports below age 40:
+    stratum counts/RORs on the 2026-09-06 snapshot, aggregate product /
+    indication / substance facets, and per-report tabulation salvaged from
+    the partial report download (`faers_under40_counts.json`,
+    `faers_under40_facets.json`, `faers_under40_summary.csv`,
+    `faers_under40_salvaged.json`).
 
 **Colocalization and PheWAS** (`colocalization/`)
 14. `fetch_api.py` — batch OpenGWAS association lookup for window variants
