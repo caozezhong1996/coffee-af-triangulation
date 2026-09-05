@@ -68,4 +68,4 @@ se_b0 = math.sqrt(s2*(1/np.sum(w) + xm**2/np.sum(w*(bxv-xm)**2)))
 print(f'R13 Egger intercept: {b0:.4f} (se {se_b0:.4f}) P={norm_sf(b0/se_b0):.2f} slope={b1:.3f} OR_slope={math.exp(b1):.2f}')
 
 h.to_csv(r'r13\r13_harmonized.csv', index=False)
-print('saved r13\r13_harmonized.csv')
+print('saved r13\\r13_harmonized.csv')
