@@ -1,0 +1,530 @@
+{
+ "query": "serious:1 AND patient.patientonsetageunit:801 AND patient.patientonsetage:[0 TO 39] AND patient.drug.medicinalproduct:\"caffeine\" AND patient.reaction.reactionmeddrapt:\"atrial fibrillation\"",
+ "query_date": "2026-09-06",
+ "products": [
+  {
+   "term": "CAFFEINE.",
+   "count": 6
+  },
+  {
+   "term": "ATOMOXETINE",
+   "count": 5
+  },
+  {
+   "term": "ACETAMINOPHEN",
+   "count": 3
+  },
+  {
+   "term": "CITALOPRAM",
+   "count": 3
+  },
+  {
+   "term": "CLOZAPINE.",
+   "count": 3
+  },
+  {
+   "term": "CLOZARIL",
+   "count": 3
+  },
+  {
+   "term": "DIAZEPAM.",
+   "count": 3
+  },
+  {
+   "term": "OLANZAPINE.",
+   "count": 3
+  },
+  {
+   "term": "SODIUM VALPROATE",
+   "count": 3
+  },
+  {
+   "term": "ACETAMINOPHEN\\CAFFEINE",
+   "count": 2
+  },
+  {
+   "term": "ALCOHOL",
+   "count": 2
+  },
+  {
+   "term": "ASPIRIN",
+   "count": 2
+  },
+  {
+   "term": "DIPHENHYDRAMINE",
+   "count": 2
+  },
+  {
+   "term": "ETHANOL",
+   "count": 2
+  },
+  {
+   "term": "ISONIAZID",
+   "count": 2
+  },
+  {
+   "term": "LERCADIP                           /01366401/",
+   "count": 2
+  },
+  {
+   "term": "PROPOFOL",
+   "count": 2
+  },
+  {
+   "term": "QUETIAPINE",
+   "count": 2
+  },
+  {
+   "term": "QUETIAPINE.",
+   "count": 2
+  },
+  {
+   "term": "ACETAMINOPHEN(PARACETAMOL),CAFFEINE",
+   "count": 1
+  },
+  {
+   "term": "ACETAMINOPHEN.",
+   "count": 1
+  },
+  {
+   "term": "ACETYLSALICYLIC ACID",
+   "count": 1
+  },
+  {
+   "term": "ALCOHOL.",
+   "count": 1
+  },
+  {
+   "term": "ASPIRIN COATED",
+   "count": 1
+  },
+  {
+   "term": "ATOMOXETINE.",
+   "count": 1
+  },
+  {
+   "term": "CAFFEINE (UNKNOWN)",
+   "count": 1
+  },
+  {
+   "term": "CAFFEINE CITRATE",
+   "count": 1
+  },
+  {
+   "term": "CYMBALTA",
+   "count": 1
+  },
+  {
+   "term": "DEXTROMETHORPHAN HYDROBROMIDE",
+   "count": 1
+  },
+  {
+   "term": "DIPHENHYDRAMINE HCL",
+   "count": 1
+  },
+  {
+   "term": "DIPHENHYDRAMINE.",
+   "count": 1
+  },
+  {
+   "term": "FOLIC ACID",
+   "count": 1
+  },
+  {
+   "term": "ISONIAZID.",
+   "count": 1
+  },
+  {
+   "term": "LAMOTRIGINE",
+   "count": 1
+  },
+  {
+   "term": "LERCADIP",
+   "count": 1
+  },
+  {
+   "term": "METHAMPHETAMINE",
+   "count": 1
+  },
+  {
+   "term": "NICOTINE",
+   "count": 1
+  },
+  {
+   "term": "OROS METHYLPHENIDATE HYDROCHLORIDE",
+   "count": 1
+  },
+  {
+   "term": "PAROXETINE",
+   "count": 1
+  },
+  {
+   "term": "PROPOFOL.",
+   "count": 1
+  },
+  {
+   "term": "PSEUDOEPHEDRINE HCL",
+   "count": 1
+  },
+  {
+   "term": "QUETIAPINE (UNKNOWN)",
+   "count": 1
+  },
+  {
+   "term": "QUETIAPINE 100MG",
+   "count": 1
+  },
+  {
+   "term": "QUETIAPINE FUMARATE",
+   "count": 1
+  },
+  {
+   "term": "TRIIODOTHYRONINE",
+   "count": 1
+  }
+ ],
+ "caffeine_role": [
+  {
+   "term": 1,
+   "count": 11
+  },
+  {
+   "term": 2,
+   "count": 8
+  }
+ ],
+ "indications": [
+  {
+   "term": "PRODUCT USED FOR UNKNOWN INDICATION",
+   "count": 7
+  },
+  {
+   "term": "AFFECTIVE DISORDER",
+   "count": 3
+  },
+  {
+   "term": "ANXIETY DISORDER",
+   "count": 3
+  },
+  {
+   "term": "ATTENTION DEFICIT/HYPERACTIVITY DISORDER",
+   "count": 3
+  },
+  {
+   "term": "SCHIZOPHRENIA",
+   "count": 3
+  },
+  {
+   "term": "DEPRESSION",
+   "count": 2
+  },
+  {
+   "term": "Product used for unknown indication",
+   "count": 2
+  },
+  {
+   "term": "BIPOLAR DISORDER",
+   "count": 1
+  },
+  {
+   "term": "DRUG USE FOR UNKNOWN INDICATION",
+   "count": 1
+  },
+  {
+   "term": "Suicide attempt",
+   "count": 1
+  },
+  {
+   "term": "THYROID DISORDER",
+   "count": 1
+  }
+ ],
+ "substances": [
+  {
+   "term": "CAFFEINE",
+   "count": 8
+  },
+  {
+   "term": "ATOMOXETINE HYDROCHLORIDE",
+   "count": 6
+  },
+  {
+   "term": "ALCOHOL",
+   "count": 5
+  },
+  {
+   "term": "QUETIAPINE FUMARATE",
+   "count": 5
+  },
+  {
+   "term": "ACETAMINOPHEN",
+   "count": 4
+  },
+  {
+   "term": "DEXTROMETHORPHAN HYDROBROMIDE",
+   "count": 4
+  },
+  {
+   "term": "DIPHENHYDRAMINE HYDROCHLORIDE",
+   "count": 4
+  },
+  {
+   "term": "DOXYLAMINE SUCCINATE",
+   "count": 4
+  },
+  {
+   "term": "IBUPROFEN",
+   "count": 4
+  },
+  {
+   "term": "QUETIAPINE",
+   "count": 4
+  },
+  {
+   "term": "CITALOPRAM",
+   "count": 3
+  },
+  {
+   "term": "CITALOPRAM HYDROBROMIDE",
+   "count": 3
+  },
+  {
+   "term": "CLOZAPINE",
+   "count": 3
+  },
+  {
+   "term": "DIAZEPAM",
+   "count": 3
+  },
+  {
+   "term": "ISONIAZID",
+   "count": 3
+  },
+  {
+   "term": "ISOPROPYL ALCOHOL",
+   "count": 3
+  },
+  {
+   "term": "OLANZAPINE",
+   "count": 3
+  },
+  {
+   "term": "PROPOFOL",
+   "count": 3
+  },
+  {
+   "term": "ASPIRIN",
+   "count": 2
+  },
+  {
+   "term": "CHLOROXYLENOL",
+   "count": 2
+  },
+  {
+   "term": ".ALPHA.-TOCOPHEROL ACETATE, DL-",
+   "count": 1
+  },
+  {
+   "term": "ASCORBIC ACID",
+   "count": 1
+  },
+  {
+   "term": "BENZOCAINE",
+   "count": 1
+  },
+  {
+   "term": "CAFFEINE CITRATE",
+   "count": 1
+  },
+  {
+   "term": "CALCIUM CARBONATE",
+   "count": 1
+  },
+  {
+   "term": "CHOLECALCIFEROL",
+   "count": 1
+  },
+  {
+   "term": "CHROMIUM NICOTINATE",
+   "count": 1
+  },
+  {
+   "term": "CYANOCOBALAMIN",
+   "count": 1
+  },
+  {
+   "term": "DIPHENHYDRAMINE",
+   "count": 1
+  },
+  {
+   "term": "DIPHENHYDRAMINE HCL",
+   "count": 1
+  },
+  {
+   "term": "DULOXETINE HYDROCHLORIDE",
+   "count": 1
+  },
+  {
+   "term": "FOLIC ACID",
+   "count": 1
+  },
+  {
+   "term": "GUAIFENESIN",
+   "count": 1
+  },
+  {
+   "term": "LAMOTRIGINE",
+   "count": 1
+  },
+  {
+   "term": "MAGNESIUM OXIDE",
+   "count": 1
+  },
+  {
+   "term": "MANGANESE SULFATE",
+   "count": 1
+  },
+  {
+   "term": "MENTHOL",
+   "count": 1
+  },
+  {
+   "term": "MOLYBDENUM",
+   "count": 1
+  },
+  {
+   "term": "NIACINAMIDE",
+   "count": 1
+  },
+  {
+   "term": "NICOTINE",
+   "count": 1
+  },
+  {
+   "term": "PAROXETINE HYDROCHLORIDE",
+   "count": 1
+  },
+  {
+   "term": "PAROXETINE HYDROCHLORIDE ANHYDROUS",
+   "count": 1
+  },
+  {
+   "term": "PAROXETINE HYDROCHLORIDE HEMIHYDRATE",
+   "count": 1
+  },
+  {
+   "term": "PAROXETINE MESYLATE",
+   "count": 1
+  },
+  {
+   "term": "PSEUDOEPHEDRINE HYDROCHLORIDE",
+   "count": 1
+  },
+  {
+   "term": "PYRIDOXINE HYDROCHLORIDE",
+   "count": 1
+  },
+  {
+   "term": "RIBOFLAVIN",
+   "count": 1
+  },
+  {
+   "term": "SELENIUM",
+   "count": 1
+  },
+  {
+   "term": "THIAMINE MONONITRATE",
+   "count": 1
+  },
+  {
+   "term": "VITAMIN A ACETATE",
+   "count": 1
+  },
+  {
+   "term": "ZINC OXIDE",
+   "count": 1
+  }
+ ],
+ "ages": {
+  "note": "no results (404)"
+ },
+ "sex": [
+  {
+   "term": 1,
+   "count": 7
+  },
+  {
+   "term": 2,
+   "count": 4
+  }
+ ],
+ "year": [
+  {
+   "time": "20080115",
+   "count": 1
+  },
+  {
+   "time": "20150407",
+   "count": 1
+  },
+  {
+   "time": "20150821",
+   "count": 1
+  },
+  {
+   "time": "20160401",
+   "count": 1
+  },
+  {
+   "time": "20160406",
+   "count": 1
+  },
+  {
+   "time": "20160503",
+   "count": 1
+  },
+  {
+   "time": "20170829",
+   "count": 1
+  },
+  {
+   "time": "20190316",
+   "count": 1
+  },
+  {
+   "time": "20190730",
+   "count": 1
+  },
+  {
+   "time": "20200601",
+   "count": 1
+  },
+  {
+   "time": "20200603",
+   "count": 1
+  }
+ ],
+ "country": {
+  "error": "HTTP Error 500: Internal Server Error"
+ },
+ "reporter": [
+  {
+   "term": 1,
+   "count": 4
+  },
+  {
+   "term": 3,
+   "count": 4
+  },
+  {
+   "term": 5,
+   "count": 2
+  }
+ ],
+ "outcomes": [
+  {
+   "term": 1,
+   "count": 4
+  }
+ ]
+}
