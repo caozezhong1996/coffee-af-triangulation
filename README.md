@@ -28,6 +28,10 @@ All analyses use **publicly available data only**. No patient-level data were ac
 | Outcome (cross-ancestry replication) | AF and atrial flutter — BioBank Japan (Sakaue & Kanai 2021; 4,150 cases / 155,540 controls, East Asian; GRCh37) | pheweb.jp, file `hum0197.v3.BBJ.AF.v1` (redirects to humandbs.dbcls.jp) |
 | Mediators (MVMR) | SBP, BMI, smoking initiation, total cholesterol (OpenGWAS IDs inside `mr_mvmr*.R`) | OpenGWAS API |
 | Pharmacovigilance | FDA Adverse Event Reporting System via openFDA API | https://api.fda.gov/drug/event.json |
+| Outcome (spectrum / sensitivity) | FinnGen R12 `I9_AF` and arrhythmia-spectrum endpoints (`CARDIAC_ARRHYTM`, `I9_PAROXTAC`, `I9_OTHARR`, `I9_AVBLOCK`, `I9_CONDUCTIO`) | https://r12.finngen.fi/ REST API |
+| Outcome (sensitivity) | FinnGen R13 `I9_AF` summary statistics | https://www.finngen.fi/en/access_results |
+| Mediators (metabolites) | Chen et al. 2023 plasma metabolome GWAS — 9 caffeine-family metabolites (GCST90199644–GCST90200436) | EBI GWAS Catalog FTP (harmonised files) |
+| Intermediate phenotypes | QT interval (GCST90165290), resting heart rate (GCST007609), PR interval (GCST010321) | EBI GWAS Catalog FTP (harmonised files) |
 
 Place the FinnGen file as `finngen_R11_I9_AF.gz` in the working directory
 (see download URL inside `mr_r11.R`).
@@ -94,6 +98,42 @@ Place the FinnGen file as `finngen_R11_I9_AF.gz` in the working directory
 **Figures**
 23. `mr_figures_final.R`, `mr_figures_r11.R` — forest/scatter/funnel/leave-one-out
     figures (300 dpi TIFF).
+
+**2026-09 revision: mechanism, spectrum and synthesis analyses**
+(`ep_20260901/`, `spectrum_20260901/`, `r13/`, `review_20260901/`)
+24. `ep_20260901/cluster_mr.py` — mechanism-cluster assignment of the 40
+    instruments (M = caffeine pharmacokinetics, A = adiposity/intake
+    propensity, O = other/unassigned) and cluster-stratified IVW estimates
+    (`cluster_assignments.csv`, `cluster_mr_results.csv`).
+25. `ep_20260901/ep_mr.py` — MR on electrophysiological intermediate
+    phenotypes (PR interval, QT interval, resting heart rate)
+    (`ep_mr_results.csv`).
+26. `ep_20260901/query_qt.py` — extraction of the 40 instruments from the
+    QT-interval GWAS via the shared pure-Python remote tabix client
+    (`ep_20260901/remote_tabix.py`; no pysam/htslib required).
+27. `ep_20260901/metabolite_panel.py`, `ep_20260901/analyze_metabolites.py` —
+    extraction of the instruments from 9 caffeine-family metabolite GWAS and
+    overall/cluster-stratified IVW with BH FDR (`metab_results.csv`).
+28. `spectrum_20260901/fetch_spectrum.py` — FinnGen R12 REST extraction of the
+    40 instruments across the arrhythmia endpoints;
+    `spectrum_20260901/fig_spectrum.py` — spectrum forest figure. Harmonised
+    per-SNP dataset: `spectrum_20260901/spectrum_harmonized_snps.csv`; pooled
+    estimates: `spectrum_20260901/spectrum_mr_results.csv`.
+29. `r13/run_r13.py` — FinnGen R13 I9_AF sensitivity: rsID harmonisation of
+    the 40 instruments, IVW (multiplicative random-effects) and weighted
+    MR-Egger.
+30. `review_20260901/reproduce_recurrence_synthesis.py` — fixed-effects
+    pooling of the DECAF hazard ratio and the post-PVI adjusted odds ratio
+    (output `recurrence_synthesis.json`; inputs in manuscript Supplementary
+    Table S26). `params.json` stores the PubMed query used for the 2026
+    literature update; raw API dumps are not redistributed.
+
+**Manuscript audit** (`audit/`)
+31. `audit/final_audit.py` — automated consistency battery (citation order,
+    key-number recurrence, word counts, section numbering) run against the
+    manuscript file.
+32. `audit/final_audit_fixes.py`, `audit/conclusions_certainty.py` — scripted
+    text-level revisions applied during finalisation (kept for provenance).
 
 ## Notes
 
