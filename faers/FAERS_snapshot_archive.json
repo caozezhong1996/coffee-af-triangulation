@@ -1,0 +1,54 @@
+{
+  "archive_purpose": "Freeze FAERS live-index snapshots used in the manuscript (the openFDA index drifts over time).",
+  "endpoint": "https://api.fda.gov/drug/event.json",
+  "scope": "Serious reports only; AF = MedDRA PT 'atrial fibrillation' (flutter not included); exposures by standardized phrase queries (full query strings and per-exposure 2 x 2 counts: Supplementary Table S2).",
+  "query_dates": {
+    "2026-08-08": {
+      "role": "primary analysis (main-text Table 4)",
+      "caffeine_2x2": {
+        "af_reports": 131,
+        "caffeine_reports": 20679,
+        "background_af": 93050,
+        "background_total": 11882967
+      },
+      "derived_ror": "0.81 (0.68-0.96), concordant with main-text Table 4",
+      "note": "caffeine citrate, taurine, and energy-drink brand 2 x 2 counts: Supplementary Table S2."
+    },
+    "2026-08-20": {
+      "role": "sex/age strata snapshots (Table S23)",
+      "strata": {
+        "overall": {"caf_af": 131, "caf_tot": 20679, "bg_af": 93050, "bg_tot": 11882967},
+        "male": {"caf_af": 40, "caf_tot": 5745, "bg_af": 42762, "bg_tot": 4625637},
+        "female": {"caf_af": 85, "caf_tot": 12450, "bg_af": 42090, "bg_tot": 5850627},
+        "age_lt40": {"caf_af": 14, "caf_tot": 4113, "bg_af": 2194, "bg_tot": 1642884},
+        "age_40_64": {"caf_af": 28, "caf_tot": 7043, "bg_af": 17096, "bg_tot": 2943883},
+        "age_ge65": {"caf_af": 64, "caf_tot": 3091, "bg_af": 43813, "bg_tot": 2872394}
+      },
+      "dedup_background": {"lt40_dedup_bg_af": 1455, "lt40_dedup_bg_tot": 1177950, "ge65_dedup_bg_af": 26200, "ge65_dedup_bg_tot": 1942718},
+      "robustness": {
+        "age_lt40_primary": {"a": 14, "caf_tot": 4113, "bg_af": 2194, "bg_tot": 1642884, "ror": 2.56, "ci": "1.51-4.34", "p": 0.0005},
+        "age_lt40_dedup": {"a": 6, "caf_tot": 1148, "bg_af": 739, "bg_tot": 464934, "ror": 3.32, "ci": "1.48-7.43", "p": 0.0035},
+        "age_lt40_nomask": {"a": 13, "caf_tot": 3902, "bg_af": 2003, "bg_tot": 1625215, "ror": 2.72, "ci": "1.58-4.70", "p": 0.0003},
+        "age_ge65_primary": {"a": 64, "caf_tot": 3091, "bg_af": 43813, "bg_tot": 2872394, "ror": 1.37, "ci": "1.07-1.75", "p": 0.0137},
+        "age_ge65_dedup": {"a": 43, "caf_tot": 1241, "bg_af": 17613, "bg_tot": 929676, "ror": 1.86, "ci": "1.37-2.52", "p": 0.0001},
+        "age_ge65_nomask": {"a": 43, "caf_tot": 2913, "bg_af": 38103, "bg_tot": 2781629, "ror": 1.08, "ci": "0.80-1.46", "p": 0.6214}
+      }
+    },
+    "2026-09-06": {
+      "role": "case-level review, AF reports under age 40 (Table S23 footnote)",
+      "summary_as_documented": {
+        "reports_reviewed": 11,
+        "stratum_ror": "2.57 (95% CI 1.42-4.65), P = .002",
+        "energy_drink_brand_reports": 0,
+        "probable_duplicate_pairs": 2,
+        "fatal_outcomes": 4,
+        "contexts": "psychiatric polypharmacy, overdose, intensive care",
+        "most_frequent_coreported_agents": ["quetiapine", "clozapine", "atomoxetine", "valproate", "propofol"],
+        "coreported_alcohol": 4,
+        "reports_after_2020": 0
+      }
+    }
+  },
+  "excluded_files": "faers_counts.json / faers_ror.json (workspace root) were superseded draft snapshots inconsistent with the final query definition and are NOT part of this archive.",
+  "note": "Case-level narratives were reviewed via the openFDA API on 2026-09-06; counts above are as documented in Supplementary Table S23 footnote."
+}
